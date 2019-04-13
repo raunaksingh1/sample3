@@ -1,0 +1,94 @@
+// // const peopleObj = {
+// // //     jim: {
+// // //       name: "jim",
+// // //       age: 20
+// // //     },
+// // //     tim: {
+// // //       name: "tim",
+// // //       age: 22
+// // //     }
+// // //   }
+// // //   // const peopleArray = Object.values(peopleObj)
+// // //   const peopleArray = Object.keys(peopleObj).map(i => peopleObj[i])
+// // //   console.log(peopleArray)
+
+// // var name1 = ["ram", "singh"];
+// // var name2 = ["vijay", "raj"];
+// // const res = name1.entries();
+// // // var res = name1.concat(name2);
+// // console.log(res);
+// // // var res=name1.concat(name2)
+// // // ////////////////////////////
+// // // var name1=['ram','singh','vija','mishra','raj']
+// // // var res=name1.copyWithin(3,0)
+
+// // ////////////////
+// var obj = {
+//   name: "raunak",
+//   age: 23
+// };
+// // // console.log("hi");
+// // // var name1=[1,5,4,6,7,8]
+// var name1 = ["ram", "singh", "raj", "mis"];
+// var res2 = Object.values(obj);
+// var res1 = Object.keys(obj);
+// var res = Object.entries(obj);
+
+// console.log(res);
+// console.log(res1);
+// console.log(res2);
+
+// // var res = name1.every(name => {
+// //   return name1 >= "ram";
+// // });
+
+// // // var res=name1.fill('kiwi',2,3)
+
+// // // var name1=[5,7,1,6,8]
+// // // var res=name1.filter((name)=>{
+// // //   return name >= 5
+// // // })
+
+// // // var ages=[3,8,2,9,6]
+// // // var res=ages.find((age)=>{
+// // //   return age >=5
+// // // })
+
+// // // var res=ages.findIndex((age)=>{
+// // //   return age>5
+// // // })
+// // // var ages=[2,7,5,9]
+// // // ages.forEach((age)=>{
+// // //   console.log(age)
+// // // })
+
+// // // var name='raunak'
+// // // var res=Array.from(name)
+
+// // // var names=['raunak','singh','vijay']
+// // // var res=names.includes('singh')
+// // // var res=names.indexOf('singh')
+// // // var res=names.join(".")
+// // // var res=names.pop()
+// // // var res=names.length
+// // // console.log(names)
+// // // var ages=[1,4,9,7,5,100]
+// // // var res=ages.some((age)=>{
+// // //   return age>10
+// // // })
+// // // names.reverse()
+// // // ages.sort()
+// // // console.log(ages)
+// // // var res=names.toString();
+// // // var res=names.slice(1,2)
+// // // console.log(names)
+// // // console.log(names)
+
+// ///star
+// // var i, j;
+// // for (i = 1; i <= 5; i++) {
+// //   for (j = 1; j <= i; j++) {
+// //     document.write("*");
+// //   }
+// //   document.write("<br/>");
+// // }
