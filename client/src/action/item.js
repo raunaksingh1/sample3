@@ -34,9 +34,5 @@ export const delItem = (id, history) => dispatch => {
   axios.delete("api/delet/" + id).then(res => {
     console.log(id);
     history.push("/create");
-    dispatch({
-      type: "DEL",
-      payload: id
-    });
   });
 };
