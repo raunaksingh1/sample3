@@ -19,5 +19,5 @@ app.use("/api", Business);
 const port = process.env.PORT || 2000;
 
 app.listen(port, () => {
-  console.log(` hello listening on port ${port}`);
+  console.log(` listening on port ${port}`);
 });
